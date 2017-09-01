@@ -13,6 +13,7 @@
     </head>
     <body>
         <h2>Name Entry</h2>
+        <%-- must be the same action name exactly as the urlpatterns name on the servlet --%>
         <form name="nameForm" id="nameForm" method="POST" action="NameMessageController">
             Enter Name: <input type="text" val="" name="userName"><br>
             <input type="submit" name="submit" val="Submit">
